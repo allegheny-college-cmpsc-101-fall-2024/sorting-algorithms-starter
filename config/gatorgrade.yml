@@ -364,7 +364,7 @@ setup: |
     - description: Show fraction for calculating at least one doubling ratio for each algorithm using mathematical markdown syntax
       check: MatchFileFragment
       options:
-        fragment: "\frac{"
+        fragment: "\\frac{"
         count: 5
         exact: false
       objectives:
@@ -385,7 +385,7 @@ setup: |
     - description: Show approximate doubling ratio for each algorithm using mathematical markdown syntax
       check: MatchFileFragment
       options:
-        fragment: "\approx"
+        fragment: "\\approx"
         count: 5
         exact: false
       objectives:
